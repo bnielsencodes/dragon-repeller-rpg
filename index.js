@@ -113,3 +113,15 @@ function update(location) {
   button3.onclick = location["button functions"][2];
   text.innerHTML = location.text;
 }
+
+function goTown() {
+  update(locations[0]);
+}
+
+function goStore() {
+  update(locations[1]);
+}
+
+function goCave() {
+  update(locations[2]);
+}
